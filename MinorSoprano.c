@@ -9,18 +9,17 @@
 #include "circle.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 #define SIZE 6
 
 int main(void) {
 
-	char pas = 'm';
+	char pas = 'M';
 
-	double num = 19;
+	double num = 101.8;
 
-	printf("insert number");
-
-	scanf(&num);
+	printf("%s\n","insert number");
 
 	bool b = true;
 

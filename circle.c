@@ -33,7 +33,7 @@ double resilence(float num, bool boolean, char pas) {
 		res = (res / 100) * num;
 	}
 	else {
-		res = (res * 100);
+		res = (res * 100) - 1;
 	}
 
 	return res;
